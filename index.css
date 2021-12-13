@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, sans-serif;
+}
+header{
+    padding: 0px 10px 10px 10px;
+    justify-content: space-between;
+    
+}
+.tema{
+    display: flex;
+    background-color: #f0f0f0;
+}
+#logo img{
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+header span{
+    font-size: 1.4em;
+    display: block;
+    text-align: justify;
+}
+#cabecalho{
+    display: flex;
+    align-items:flex-end;
+}
+#cabecalho :nth-child(2){
+    color: #1f2124;
+}
+section{
+    padding: 10px;
+    
+}
+section h1{
+    border-bottom: 2px solid rgb(139, 217, 24);
+    margin-bottom: 5px;
+}
+ol{
+    margin-bottom: 10px;
+}
+footer{
+    padding: 1rem;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color:#01A500;
+}
+a:hover{
+    color:  rgb(139, 217, 24);
+}
