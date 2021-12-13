@@ -50,3 +50,17 @@ a{
 a:hover{
     color:  rgb(139, 217, 24);
 }
+@media screen and (max-width: 540px){
+   #cabecalho{
+        flex-direction: column;
+        align-items: center;
+   } 
+}
+@media screen and (max-width:460px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        order: 2;
+    }
+
+}
